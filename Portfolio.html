@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fbf1aa9d91.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Pictures/Portfolio_logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick= "closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick= "openmenu()"></i>
+            <img src="Pictures/Dark Theme Icons/sun.png" id="icon">
+        </nav>
+        <div class="header-text">
+            <p>IT Engineer</p>
+            <h1>Hi, I am <span>Sanskar</span> 
+                 Maharana from India </h1> 
+        </div>
+    </div>
+</div>
+
+<!-- ------------------About------------------ -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Pictures/Sanskar_Maharana-PhotoRoom.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I am a student of Odisha University of Technology and Research in the branch of IT <br>
+                    4th year. I am a tireless seeker of knowledge. Hard worker and a dedicated person. <br><br><br>
+                    <h2>Soft Skills: </h2>  </br></br>
+                    <ul>
+                            <li>Communication</li>
+                            <li>Teamwork</li>
+                            <li>Leadership</li>
+                            <li>Problem-solving</li>
+                    </ul>
+                    <br><br><br>
+                    <h2>Education:</h2><br>
+                    Odisha University of Technology and Research <br>
+                    BTECH, Information Technology, 4th Year – 8.86 CGPA 2024 <br><br>
+                    Matriculation and Higher Secondary 2020 <br>
+                    Matriculation – 93.4% & Higher Secondary – 87.2%.
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------services--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Developer</h2>
+                <p>Design, Program, Build, Deploy <br>and maintain software using many <br>different skills and tools. </p>
+                <!-- <a href="Pictures/sd.jpg">Learn More</a> -->
+            </div>
+            <div>
+                <i class="fa-brands fa-internet-explorer"></i>
+                <h2>Web Designing</h2>
+                <p>Designing the overall layout and <br>aesthetic for websites.</p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Science</h2>
+                <p>Applies Mathematical, Problem-solving,<br> and Coding skills <br> To manage big data, extracting valuable insights.</p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------skills--------------- -->
+<div class="skill">
+    <h1>My Skills</h1>
+    <li><h3>Python</h3>
+        <span class="bar"><span class="python"></span></span>
+    </li>
+    <li><h3>Machine Learning</h3>
+        <span class="bar"><span class="ml"></span></span>
+    </li>
+    <li><h3>Data Science</h3>
+        <span class="bar"><span class="ds"></span></span>
+    </li>
+    <li><h3>HTML</h3>
+        <span class="bar"><span class="html"></span></span>
+    </li>
+    <li><h3>MySQL</h3>
+        <span class="bar"><span class="sql"></span></span>
+    </li> 
+    <li><h3>Natural Language Processing (NLP)</h3>
+        <span class="bar"><span class="nlp"></span></span>
+    </li>
+    <li><h3>Deep Learning</h3>
+        <span class="bar"><span class="dl"></span></span>
+    </li>
+    <li><h3>Statistics</h3>
+        <span class="bar"><span class="stat"></span></span>
+    </li>
+    <li><h3>Jinja2</h3>
+        <span class="bar"><span class="j2"></span></span>
+    </li>
+    <li><h3>Excel</h3>
+        <span class="bar"><span class="excel"></span></span>
+    </li>
+    <li><h3>Data Analysis</h3>
+        <span class="bar"><span class="da"></span></span>
+    </li>
+</div>
+
+<!-- -------------------portfolio-------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Pictures/mrs.png">
+                <div class="layer">
+                    <h3>Movie Recommender System</h3>
+                    <p>Developed and deployed end-to-end machine learning model leveraging Python libraries -
+                         NumPy, pandas, sci-kit-learn, NLTK; <br>Constructed Python API with Streamlit for real-time display of results; 
+                         achieving an accuracy of 85%.<br>
+                         Analyzed TMDB-5000 dataset to create a personalized movie recommendation engine; </p>
+                    <a href="https://sanskar-mrs.streamlit.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pictures/ccp.png">
+                <div class="layer">
+                    <h3>Customer Churn Prediction Model</h3>
+                    <p>Developed and deployed end-to-end machine learning model using Python libraries - NumPy, pandas, sci-kit-learn, 
+                        mat plot-lib inline; <br>
+                        Constructed a Web API using: <br>Flask (backend) <br>
+                        Html and css (frontend) <br>
+                        Performed Data Visualization to get insights from the data and found the solution to reduce the customer churn.; 
+                        <br>Constructed Python API for real-time display of results.</p>
+                    <a href="http://sanskarmaharana.pythonanywhere.com/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pictures/sms.png">
+                <div class="layer">
+                    <h3>SMS-Spam-Classifier</h3>
+                    <p>Designed End-to-End model using Machine Learning and Python libraries such as numpy, pandas, matplotlib, 
+                        and nltk that classifies input messages as spam or not;<br> secured 98% accuracy rate and precision of 94.6%.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/SANSKAR7779" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- --------------------Contact-------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i></i>sanskarmaharana@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i></i>(+91) 7894062126</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/sanskar.maharana/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Sansskaaarrrr"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a href="https://www.linkedin.com/in/sanskar-maharana-87676218b/"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://github.com/SANSKAR7779"><i class="fa-brands fa-github"></i></i></a>
+                </div>
+                <a href="Pictures/New_Resume_Sanskar Maharana.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made With <i class="fa-solid fa-heart"></i> by Sanskar Maharana.</p>
+    </div>
+    <div>
+    <a class="gotoup" href="#"><i class="fa-solid fa-circle-arrow-up fa-sm" style="color: #641282;"></i></a>
+    </div>
+</div>
+
+
+<script>
+
+    let modalBox = document.getElementById("modalbox");
+    
+    function showModal(){
+        setTimeout(() => {
+            modalBox.style.display = "block";
+        }, 3000)
+    }
+    function closeModal(){
+        modalBox.style.display = "none";
+    }
+
+</script>
+
+<script>
+    var icon = document.getElementById("icon")
+    icon.onclick = function(){
+        document.body.classList.toggle("light-theme");
+        if(document.body.classList.contains("light-theme")){
+            icon.src = "Pictures/Dark Theme Icons/moon.png"
+        }else{
+            icon.src = "Pictures/Dark Theme Icons/sun.png"
+        }
+    }
+
+</script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3YGuzQLoiSq6XuyamGSjwJghs2TuIG7tNObsdM_QaW0d-8K1Q2xBy9Iccq_55XnHMlg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = "" 
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+</body>
+</html>
