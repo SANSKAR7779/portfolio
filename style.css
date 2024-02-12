@@ -48,7 +48,7 @@ nav{
 
 .logo{
     width: 200px;
-    background: black;
+    background: var(--secondary-color);
 }
 nav ul li{
     display: inline-block;
